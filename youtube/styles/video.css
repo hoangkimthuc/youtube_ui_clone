@@ -35,7 +35,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 40px;
-    margin: 20px;
 }
 .thumbnail {
     width: 100%;
