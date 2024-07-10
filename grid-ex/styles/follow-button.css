@@ -1,0 +1,21 @@
+.follow-button-box{
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.follow-button:hover {
+    background-color: #0d8ecf;
+}

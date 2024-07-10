@@ -1,0 +1,25 @@
+.user-info-box p{
+    margin-left: 10px;
+    justify-content: left;
+    /* background-color: lightgreen; */
+    margin-bottom: 5px;
+    min-width: 300px;
+    max-width: 500px;
+}
+.user-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.species {
+    font-size: 22px;
+    color: grey;
+    margin-top: 0px;
+}
+.popularity {
+    font-size: 20px;
+    color: grey;
+    margin-top: 0px;
+}
+
+
