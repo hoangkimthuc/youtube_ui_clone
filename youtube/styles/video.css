@@ -35,6 +35,31 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 40px;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background-color: rgb(228, 228, 228);
+    border-top-style: solid;
+    border-top-color: rgb(213, 213, 213);
+    border-top-width: 2px;
+}
+
+@media (max-width: 750px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+@media (min-width: 751px) and (max-width: 999px) {
+.video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+  
+@media (min-width: 1000px) {
+.video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 }
 .thumbnail {
     width: 100%;

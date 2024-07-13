@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .yt-menu {
@@ -68,10 +73,48 @@
     height: auto; /* Ensure the image scales properly */
 }
 .right-section {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
     width: 200px;
-    background-color: lightgreen;
 }
 
+.bell-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    background-color: white;
+}
+.bell-icon-box p {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.bell-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+.yt-apps {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
 .search-bar {
     flex: 1;
     height: 37px;
